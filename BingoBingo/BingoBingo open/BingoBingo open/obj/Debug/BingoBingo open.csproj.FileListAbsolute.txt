@@ -1,0 +1,22 @@
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\bin\Debug\BingoBingo open.exe.config
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\bin\Debug\BingoBingo open.exe
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\bin\Debug\BingoBingo open.pdb
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.csproj.AssemblyReference.cache
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.csproj.SuggestedBindingRedirects.cache
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo_open.Form1.resources
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo_open.Properties.Resources.resources
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.csproj.GenerateResource.cache
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.csproj.CoreCompileInputs.cache
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.exe
+C:\Users\iSpan\source\repos\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.pdb
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\bin\Debug\BingoBingo open.exe.config
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\bin\Debug\BingoBingo open.exe
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\bin\Debug\BingoBingo open.pdb
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.csproj.AssemblyReference.cache
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.csproj.SuggestedBindingRedirects.cache
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo_open.Form1.resources
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo_open.Properties.Resources.resources
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.csproj.GenerateResource.cache
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.csproj.CoreCompileInputs.cache
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.exe
+E:\我的C#\BingoBingo\BingoBingo open\BingoBingo open\obj\Debug\BingoBingo open.pdb

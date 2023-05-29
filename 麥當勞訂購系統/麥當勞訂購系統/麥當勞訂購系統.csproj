@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E6EF3FA-235D-481D-A169-333727B2FF50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>麥當勞訂購系統</RootNamespace>
+    <AssemblyName>麥當勞訂購系統</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Burger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Burger.Designer.cs">
+      <DependentUpon>Burger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerInFo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerInFo.Designer.cs">
+      <DependentUpon>CustomerInFo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerManagement.Designer.cs">
+      <DependentUpon>CustomerManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dessert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dessert.Designer.cs">
+      <DependentUpon>Dessert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drink.Designer.cs">
+      <DependentUpon>Drink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrderList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrderList.Designer.cs">
+      <DependentUpon>FormOrderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVar.cs" />
+    <Compile Include="Great Value Full Meal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Great Value Full Meal.Designer.cs">
+      <DependentUpon>Great Value Full Meal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Happy Meal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Happy Meal.Designer.cs">
+      <DependentUpon>Happy Meal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="McDonaldsOrderSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>McDonaldsOrderSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrderHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderHome.Designer.cs">
+      <DependentUpon>OrderHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetailsItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductDetailsItems.Designer.cs">
+      <DependentUpon>ProductDetailsItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Burger.resx">
+      <DependentUpon>Burger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerInFo.resx">
+      <DependentUpon>CustomerInFo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerManagement.resx">
+      <DependentUpon>CustomerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dessert.resx">
+      <DependentUpon>Dessert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drink.resx">
+      <DependentUpon>Drink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrderList.resx">
+      <DependentUpon>FormOrderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Great Value Full Meal.resx">
+      <DependentUpon>Great Value Full Meal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Happy Meal.resx">
+      <DependentUpon>Happy Meal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderHome.resx">
+      <DependentUpon>OrderHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductDetailsItems.resx">
+      <DependentUpon>ProductDetailsItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="McDonaldsOrderSystemDataSet.xsc">
+      <DependentUpon>McDonaldsOrderSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="McDonaldsOrderSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>McDonaldsOrderSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="McDonaldsOrderSystemDataSet.xss">
+      <DependentUpon>McDonaldsOrderSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20塊麥克雞塊分享餐.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
